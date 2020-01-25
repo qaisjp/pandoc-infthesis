@@ -52,3 +52,7 @@ really useful extensions here:
 > Pandoc’s enhanced version of Markdown includes syntax for tables, definition lists, metadata blocks, footnotes, citations, math, and much more. See below under [Pandoc’s Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
 
 If you have existing stuff in LaTeX, just copy the content to a new `.tex` file, and use this command to convert it to Markdown: `pandoc old.tex -o new.md`
+
+# License
+
+The Unlicense, except `infthesis.cls` and `eushield.sty` which is probably owned by The University of Edinburgh. That basically means you can do whatever you like with it. It's public domain.
