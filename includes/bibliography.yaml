@@ -1,0 +1,40 @@
+---
+# https://github.com/andras-simonyi/citeproc-el/wiki/BibLaTeX-CSL-mapping
+# http://docs.citationstyles.org/en/stable/specification.html
+
+references:
+
+- id: quote1
+  type: webpage
+  author:
+    - given: J
+      family: Smith
+  title: "php - LARAVEL: Is re queue a job is a bad idea?"
+  publisher: Stack Overflow
+  url: https://stackoverflow.com/a/59913973/1517394
+  issued:
+    - year: 2020
+      month: 1
+      day: 25
+  accessed:
+    - year: 2020
+      month: 1
+      day: 25
+
+- id: quote2
+  type: webpage
+  author:
+    - family: Cherone
+      given: Lawrence
+  title: Trying to get property of non-object in stdclass object
+  publisher: Stack Overflow
+  url: https://stackoverflow.com/a/49024511/1517394
+  issued:
+    - year: 2018
+      month: 2
+      day: 28
+  accessed:
+    - year: 2020
+      month: 1
+      day: 23
+...
