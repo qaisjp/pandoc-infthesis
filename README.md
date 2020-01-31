@@ -57,6 +57,11 @@ If you have existing stuff in LaTeX, just copy the content to a new `.tex` file,
 
 [Footnotes work fine, read the docs](https://pandoc.org/MANUAL.html#footnotes). I can't get numbering to work for our endnotes, the bibliography, however. This ["How to use Pandoc to product a research paper"](https://opensource.com/article/18/9/pandoc-research-paper) article says that it will just output a number, but for some reason it doesn't actually do that. `¯\_(ツ)_/¯`.
 
-# License
+## Caveats
+
+* Markdown images are relative to the root of the repo, not relative to the markdown file. This will cause images to not show up correctly on GitHub or any other renderer. See [jgm/pandoc#3752](https://github.com/jgm/pandoc/issues/3752).
+* And any other problems mentioned in the FAQ.
+
+## License
 
 The Unlicense, except `infthesis.cls` and `eushield.sty` which is probably owned by The University of Edinburgh. That basically means you can do whatever you like with it. It's public domain.
