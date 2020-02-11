@@ -13,14 +13,20 @@ Here's a template for writing your honours project in Markdown, but still using 
 
 ## Installing
 
+**For LaTeX**
+
+On macOS you need `brew cask install mactex` (3.8GB). On Linux... who knows.
+
+You probably don't need the full thing, but that's what I have installed.
+
+**Everything else**
+
 On macOS you can just do: `brew install pandoc pandoc-citeproc pandoc-crossref`.
 
 On Linux you can probably install `pandoc` and `pandoc-citeproc` from your package manager.
 [`pandoc-crossref`] is harder to install, hard enough for me (or takes too long to install) to give up on adding continuous integration to this repo.
 
 Pandoc uses Haskell, so you will need to install stuff. `pandoc-citeproc` is essential but you can survive without `pandoc-crossref`. You'll just lose a bunch of nifty features for referencing sections, figures, equations and tables.
-
-I don't think you need any LaTeX stuff installed, `pandoc` alone will work fine.
 
 [`pandoc-crossref`]:https://github.com/lierdakil/pandoc-crossref
 
